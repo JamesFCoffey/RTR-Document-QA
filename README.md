@@ -9,6 +9,8 @@ This application serves as a dynamic FAQ service by matching a new user's query 
 
 Although this demo doesn't leverage customer service data, I've incorporated the `databricks-dolly-15k` dataset from Databricks as a prototype. It is designed with document question-answering tasks in mind.
 
+<img src="app_screenshot.png" alt="App Screenshot" width="400"/>
+
 ### Why These Technologies?
 - **all-MiniLM-L6-v2 Model**: Chosen from Hugging Face's `sentence-transformers` library for sentence embedding due to its stellar performance in semantic search quality rankings and efficiency.
 - **Pinecone Vertex Database**: Utilized for storing sentence embeddings and conducting cosine similarity lookup for new queries. The decision to go with Pinecone was driven by its ease of implementation, capability to store metadata alongside vector embedding, and superior storage capabilities compared to Spotify's `annoy` library.
