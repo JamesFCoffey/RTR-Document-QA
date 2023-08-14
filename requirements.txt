@@ -1,0 +1,10 @@
+datasets
+streamlit
+pinecone-client[grpc]
+sentence-transformers
+google-cloud-aiplatform==1.29.0
+
+# No longer need these since I decided to switch to PaLM 2 rather than HuggingFace for fine-tuning
+# transformers[torch]
+# peft
+# trl

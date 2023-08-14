@@ -1,0 +1,11 @@
+# You can find these variables in the Pinecone console for your index
+pinecone:
+  api_key: "###"
+  environment: "###"
+  search_index_name: "###"
+
+# Enter the name of the fine-tuned model, the project ID, and location from GCP
+vertex_ai:
+  model_name: "###" # The PaLM 2 foundational model is "text-bison@001"
+  project_id: "###"
+  location: "###" # I used "us-central1"
