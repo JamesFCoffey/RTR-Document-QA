@@ -9,3 +9,4 @@ vertex_ai:
   model_name: "###" # The PaLM 2 foundational model is "text-bison@001"
   project_id: "###"
   location: "###" # I used "us-central1"
+  bucket: "###"
