@@ -1,4 +1,4 @@
-# Retrieve Then Read Document Question Answering
+# Retrieval Augmented Generation for Question Answering
 
 ## Description
 
